@@ -1,0 +1,453 @@
+body{
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("img/nbafond.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: #000000;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 5%;
+    display: flex;
+}
+
+i{
+    font-size: 1em;
+    color: #ffffff;
+}
+
+header .liens_header{
+    padding-top: 5%;
+
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.fa-bars{
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 8%;
+
+}
+
+.hide1 i{
+    font-size: 50px;
+    margin-left: 18px;
+    margin-top: 25px;
+}
+
+header i:hover {
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+    background-color: #ffffff;
+
+}
+
+.hide nav{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hide a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+}
+
+.hide i{
+    color: #000000;
+}
+
+.hide1{
+    display: none;
+}
+
+#name{
+    background-color: #1d428a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 7px;
+}
+
+#resultat{
+    background-color: #1d428a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.bleu {
+    background-color: #1d428a;
+}
+
+main h1{
+    color:#ffffff;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 2%;
+}
+
+.bleu p{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 25px;
+}
+
+main h2{
+    color: #ffffff;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 74%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+}
+
+.card h4{
+    color: #ffffff;
+}
+
+.card p{
+    color: #ffffff;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+.card img{
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+
+}
+
+.equipes{
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+
+
+main h3{
+    color: #ffffff;
+    font-size: 22px;
+}
+
+main h5{
+    color: #ffffff;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    text-align: center;
+    border-radius:20px;
+}
+
+.check{
+    color: #c7102e;
+    width: 25px;
+    height: 25px;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 7px;
+
+}
+
+.card2 h4{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.card2 p{
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+.card2 img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card2 .container {
+    padding: 2px 16px;
+
+}
+
+.checkeff{
+    align-items: center;
+}
+
+.membres1{
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+.membres2{
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+.valide{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 6% auto 6% 38%;
+    border-color: #ffffff;
+
+}
+
+.valide:hover{
+    border-color: #000000;
+    background-color: #ffffff;
+    color: #000000;
+    cursor:pointer;
+}
+
+#question{
+    font-weight: bold;
+}
+
+form{
+    text-align: center;
+    width: 50%;
+    background-color: #ffffff;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: grey 0px 2px 2px;
+    margin: 5% auto auto;
+}
+
+.line{
+    margin-top: 5%;
+}
+
+
+#button{
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background: #000000;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 14px;
+    border-radius: 20px;
+    margin-top: 8%;
+
+
+}
+
+#button:hover{
+    background: #ffffff;
+    color: #000000;
+    border: #000000 solid;
+}
+
+.radio{
+    float: right;
+}
+
+footer {
+
+    background-color: #000000;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+footer .liens_footer{
+    padding-top: 5%;
+}
+
+footer .liens_footer2{
+    padding-top: 5%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .liens_mentions{
+    margin-top: 20%;
+
+}
+
+@media screen and (min-width: 768px){
+
+    .fa-bars{
+        font-size: 90px;
+
+
+    }
+
+    .hide1 i{
+        font-size: 90px;
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+
+    #name{
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom:10px;
+    }
+
+    .check{
+        margin-left: 45%;
+
+    }
+
+    main h1{
+        font-size: 40px;
+    }
+
+    main h2{
+        font-size: 35px;
+        margin-left: 2%;
+    }
+
+    main h3{
+        font-size: 35px;
+        margin-left: 2%;
+    }
+
+    main h5{
+        font-size: 25px;
+        margin-left: 2%;
+    }
+
+
+    .card2 h4{
+        font-size: 20px;
+    }
+
+    .card2 p{
+        font-size: 18px;
+    }
+
+    .card h4{
+        font-size: 30px;
+    }
+
+    .card p{
+        font-size: 25px;
+    }
+    .valide{
+        margin-left: 41%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        font-size: 1.5em;
+    }
+    header img{
+        margin-top: 5%;
+        width: 17%;
+        height: auto;
+        margin-left: 68%;
+    }
+
+    .hide1 i{
+        margin-left: 40px;
+    }
+
+    .fa-bars{
+        margin-top: 5%;
+    }
+
+    .equipes{
+        display: flex;
+    }
+    .card{
+        width: 30%;
+        margin-left: 5%;
+    }
+
+    .card2{
+        width: 15%;
+        margin-left: 2%;
+    }
+
+    .membres1{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 0px;
+    }
+
+    .membres2{
+        display: flex;
+    }
+
+    footer .footer_nav{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2em;
+    }
+
+    .liens_footer2{
+        font-size: 1.2em;
+    }
+
+    .valide{
+        margin-left: 43%;
+    }
+}
+
+
+
+@media screen and (min-width: 1280px) {
+    header img {
+        margin-top:2%;
+    }
+
+    .hide1 i{
+        margin-left: 80px;
+        margin-top: 83px;
+    }
+
+    .hide nav{
+        display: inline-flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    .valide{
+        margin-left: 45%;
+    }
+
+
+}

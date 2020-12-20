@@ -1,0 +1,304 @@
+body{
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/nbafond.jpg");
+    background-size: cover;
+}
+
+header{
+    background-color: #000000;
+    text-align: center;
+    padding-bottom: 5%;
+    display: flex;
+}
+
+.fa-bars{
+    font-size: 50px;
+    margin-left: 5%;
+    margin-top: 8%;
+
+}
+
+.hide1 i{
+    font-size: 50px;
+    margin-left: 18px;
+    margin-top: 25px;
+}
+
+header img{
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 50%;
+}
+
+i{
+    font-size: 1em;
+    color: #ffffff;
+}
+
+header .liens_header{
+    padding-top: 5%;
+
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+header i:hover {
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+    background-color: #ffffff;
+
+}
+
+.hide nav{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hide a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+}
+
+.hide i{
+    color: #000000;
+}
+
+.hide1{
+    display: none;
+}
+
+
+
+main h1{
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.bleu {
+    background-color: #1d428a;
+}
+.img_main{
+    background-image: url("../img/alltimeteams.png");
+    background-size: cover;
+    width: 100%;
+    height: 15em;
+
+
+}
+
+main h2{
+
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0px;
+    font-size: 1em;
+    border: 3px solid #1d428a;
+    background-color: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+}
+
+main a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.rouge {
+    color: red;
+}
+
+h3{
+    color: #ffffff;
+    margin-left: 10%;
+}
+
+.sondages1{
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.sondages2{
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 74%;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+.card img{
+    width: 100%;
+}
+
+.container {
+    padding: 2px 16px;
+
+}
+
+
+
+footer {
+    margin-top: 40px;
+    background-color: #000000;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+footer .liens_footer{
+    padding-top: 5%;
+}
+
+footer .liens_footer2{
+    padding-top: 5%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .liens_mentions{
+    margin-top: 20%;
+
+}
+
+@media screen and (min-width: 540px){
+    .img_main{
+        height: 20em;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .img_main{
+        height: 28em;
+    }
+
+    .fa-bars{
+        font-size: 90px;
+
+
+    }
+
+    .hide1 i{
+        font-size: 90px;
+        margin-left: 35px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    header{
+        display: flex;
+        font-size: 1.5em;
+    }
+
+    header img{
+        margin-top: 5%;
+        width: 17%;
+        height: auto;
+        margin-left: 68%;
+    }
+
+    .hide1 i{
+        margin-left: 40px;
+    }
+
+    .fa-bars{
+        margin-top: 5%;
+    }
+
+    .img_main{
+        height: 600px;
+    }
+
+    main h2{
+        font-size: 1.5em;
+    }
+
+    main h3{
+        font-size: 2em;
+    }
+    .card h4{
+        font-size: 1.7em;
+    }
+    .card p{
+        font-size: 1.4em;
+    }
+
+    footer .footer_nav{
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.2em;
+    }
+
+    .liens_footer2{
+        font-size: 1.2em;
+    }
+
+}
+
+@media screen and (min-width: 1280px){
+
+    header img {
+        margin-top:2%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+
+    .hide1 i{
+        margin-left: 80px;
+        margin-top: 83px;
+    }
+
+    .hide nav{
+        display: inline-flex;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+    main h2{
+        font-size: 2.5em;
+    }
+
+    .sondages{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 5%;
+    }
+
+    .card{
+
+        width: 20%;
+    }
+    .img_main{
+        height: 50em;
+    }
+
+
+}
